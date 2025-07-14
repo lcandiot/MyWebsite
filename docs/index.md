@@ -3,8 +3,8 @@ layout: home
 
 hero:
   name: "Dr. Lorenzo Candioti"
-  text: "Scientific Rigor. Industrial Mindset. Powered by Julia."
-  tagline: "Modeling complex systems in geoscience and industry"
+  text: "Simulation. Science. Software."
+  tagline:  "Modeling complex systems in geoscience and industry"
   image:
     src: /profile.png
   actions:
@@ -13,15 +13,17 @@ hero:
       link: /#portfolio
     - theme: alt
       text: 📬 Contact Me
-      link: mailto:your@email.com
+      link: mailto:lorenzo.candioti@bluewin.ch
 
 features:
-  - title: CFD Simulations
+  - title: Simulations
     details: High-fidelity modeling of multiphase and reactive fluid systems using Julia and OpenFOAM
-  - title: Machine Learning + CFD
+  - title: Machine Learning
     details: Hybrid algorithms combining physics-based models with ML to improve efficiency and accuracy
-  - title: Teaching & Risk Modeling
-    details: Creator of Julia ML course; developing Monte Carlo-based risk assessment pipelines
+  - title: Course materials
+    details: Creator of Julia ML course
+  - title: Package Development
+    details: I am developing and maintaining several Julia packages C-libraries. Follow for more ...
 ---
 
 ## 🔍 Portfolio
