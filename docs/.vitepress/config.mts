@@ -18,7 +18,9 @@ export default defineConfig({
         {
           text: 'Projects',
           items: [
-            { text: 'Geoscientific Research', link: '/projects/index' },
+            { text: 'Geoscientific Research', link: '/projects/geoscientific_modelling' },
+            { text: 'Software Development', link: '/projects/software_development' },
+            { text: 'Machine Learning', link: '/projects/machine_learning' },
             // Add more project pages if needed
           ]
         }

@@ -6,7 +6,7 @@ hero:
   text: "Simulation. Science. Software."
   tagline:  "Modeling complex systems in geoscience and industry"
   image:
-    src: /profile_bun_v1.png
+    src: /profile_avatar_bw_transp.png
   actions:
     - theme: brand
       text: 📄 View My Work

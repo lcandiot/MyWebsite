@@ -1,12 +1,10 @@
 # 🔬 Projects
 
-Welcome to a selection of projects I’ve led and contributed to in **geoscience, numerical modeling, and software development**. ** **
+Welcome to a selection of projects I’ve led and contributed to in
 
-These pages highlight the research I’ve driven as a **first author**, with a focus on:
+**-** 🏔 Articles published as **lead author** in peer-reviewed geoscientific journals
 
-**-** 🏔 Geoscientific simulations of mountain-building and subduction
-
-**-** ⚙️ High‑performance computing and custom solvers in Julia & C
+**-** ⚙️ Software development of Julia packages and C-libraries for geodynamic applications
 
 **-** 🧠 Machine learning for physics‑informed modeling
 
@@ -24,13 +22,13 @@ Thermo‑mechanical and petrological simulations of lithosphere–mantle interac
 
 Development of high‑performance packages in Julia and contributions to C‑based numerical solvers for geoscience applications.
 
-**[**➡ Explore Software Development**](**/projects/software**)**
+**[**➡ Explore Software Development**](/projects/software_development)**
 
 ### **Machine Learning for Physics**
 
 Hybrid AI‑driven workflows combining automatic differentiation and physical modeling for subsurface simulations.
 
-**[**➡ Explore ML & Physics**](**/projects/ml-physics**)**
+**[**➡ Explore ML & Physics**](/projects/machine_learning)**
 
 ---
 
