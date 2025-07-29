@@ -6,38 +6,36 @@ hero:
   text: "Simulation. Science. Software."
   tagline:  "Modeling complex systems in geoscience and industry"
   image:
-    src: /profile.png
+    src: /profile_bun_v1.png
   actions:
     - theme: brand
       text: 📄 View My Work
-      link: /#portfolio
+      link: /projects/geoscientific_modelling.md
     - theme: alt
       text: 📬 Contact Me
       link: mailto:lorenzo.candioti@bluewin.ch
 
 features:
-  - title: Simulations
-    details: High-fidelity modeling of multiphase and reactive fluid systems using Julia and OpenFOAM
-  - title: Machine Learning
-    details: Hybrid algorithms combining physics-based models with ML to improve efficiency and accuracy
-  - title: Course materials
-    details: Creator of Julia ML course
-  - title: Package Development
-    details: I am developing and maintaining several Julia packages C-libraries. Follow for more ...
+  - title: Geoscientific Research 🏔️
+    details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and MATLAB
+  - title: Software development ⚙️
+    details: Contributing to C-libraries and developing Julia packages for geodynamic modelling — combining numerical precision with clean, reproducible code.
 ---
+## 👋 A Bit About Me
 
-## 🔍 Portfolio
+I enjoy building models, writing code, and working with people who like solving hard problems.
+My work sits at the intersection of geoscience, fluid mechanics, and machine learning — always with a focus on practical application.
 
-- [🔬 CFD Simulations](./portfolio/cfd.md)
-- [🤖 Machine Learning Projects](./portfolio/ml.md)
-- [📚 Teaching: Intro ML in Julia](./portfolio/teaching.md)
-- [⚠️ Risk Assessment Modeling](./portfolio/risk.md)
+Currently, I’m a postdoctoral researcher at ETH Zürich where I develop reactive transport models and AI-driven workflows for subsurface systems. I’ve also worked as a CAE engineer in industry, applying CFD and FEM tools to improve product performance and time to market.
 
----
+I share code, projects, and thoughts here — feel free to explore and reach out.
+
+## 🧪 Projects
+
+Welcome to a selection of projects spanning research, engineering, and simulation software.
+Each one reflects a different way I approach complex systems — with a mix of coding, modeling, and physics.
 
 ## 🧰 Technologies
 
 - Julia, Python, OpenFOAM, Pluto.jl, Jupyter
 - Multiphase Flow · Structural Mechanics · ML Integration
-
----

@@ -8,21 +8,33 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Projects', link: '/projects/index' },
+      { text: 'Blog', link: '/blog/index'}
     ],
 
-    sidebar: [
-      {
-        text: 'Examples',
-        items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
-        ]
-      }
-    ],
+    sidebar: {
+      // Sidebar for /projects/*
+      '/projects/': [
+        {
+          text: 'Projects',
+          items: [
+            { text: 'Geoscientific Research', link: '/projects/index' },
+            // Add more project pages if needed
+          ]
+        }
+      ],
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
+      // Sidebar for /blog/*
+      '/blog/': [
+        {
+          text: 'Updates & Blog',
+          items: [
+            { text: 'Latest Posts', link: '/blog/index' },
+            // Example: First blog post
+            { text: 'Archive', link: '/blog/archive' }
+          ]
+        }
+      ]
+    }
   }
 })

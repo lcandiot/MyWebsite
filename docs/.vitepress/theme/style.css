@@ -137,3 +137,10 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
+/**
+ * Reference rendering
+ * -------------------------------------------------------------------------- */
+ .references li {
+  font-size: 0.75rem;
+  line-height: 1.4;
+}
