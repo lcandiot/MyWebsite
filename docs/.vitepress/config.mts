@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Lorenzo Candioti",
+  title: "Dr. Lorenzo Candioti",
   description: "A Scientist with experience in Multi-Physics Simulation, Machine Learning, and Data Analysis.",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
