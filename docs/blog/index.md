@@ -5,28 +5,13 @@ I share research insights, coding projects, and occasional thoughts on geoscienc
 
 ---
 
-## 📌 Latest Posts
-
-### 1️⃣ My Third Post
-*October 2025*  
-A short description of this post.  
-[➡ Read more](/blog/2025-10-SeismicActivityNaples)
-
----
-
-### 2️⃣ My Second Post
-*September 2025*  
-A short description of this post.  
-[➡ Read more](/blog/2025-09-MachineLearningGeochem)
-
----
-
-### 3️⃣ My First Post
+### Static Websites with VitePress
 *August 2025*  
-A short description of this post.  
-[➡ Read more](/blog/2025-08-ReactiveTransportJulia)
+This year I chose a project for my summer vacation that is a bit outside my area expertise: building and deploying a *website*. The result? - Well, you are looking at it. If you want to know more detail on how I built this website in less than 2 weeks:
 
----
+
+[➡ Read more](/blog/2025-08-WebsitesVitePress)
+
 
 ## 📚 Archive
 

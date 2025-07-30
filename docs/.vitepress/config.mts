@@ -20,7 +20,7 @@ export default defineConfig({
           items: [
             { text: 'Geoscientific Research', link: '/projects/geoscientific_modelling' },
             { text: 'Software Development', link: '/projects/software_development' },
-            { text: 'Machine Learning', link: '/projects/machine_learning' },
+            // { text: 'Machine Learning', link: '/projects/machine_learning' },
             // Add more project pages if needed
           ]
         }
@@ -31,7 +31,7 @@ export default defineConfig({
         {
           text: 'Updates & Blog',
           items: [
-            { text: 'Latest Posts', link: '/blog/index' },
+            { text: 'News', link: '/blog/index' },
             // Example: First blog post
             { text: 'Archive', link: '/blog/archive' }
           ]
