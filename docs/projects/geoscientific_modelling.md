@@ -8,14 +8,17 @@ I used 2D petrological–thermomechanical models to investigate how much horizon
 
 The models account for realistic margin architecture and include mineral phase transitions like the olivine–wadsleyite transformation. Results also reveal how lithospheric strength controls the timing and geometry of slab detachment.
 
-**Why it matters:** Understanding the mechanical thresholds for subduction helps explain how convergent plate boundaries can form spontaneously — a key process in Earth’s tectonic evolution
+::: tip **Why it matters**
+Understanding the mechanical thresholds for subduction helps explain how convergent plate boundaries can form spontaneously — a key process in Earth’s tectonic evolution.
+:::
 
+::: warning Details
 🔧 **Tech:** C, Finite Difference, MATLAB, OpenMP
 
 🏢 **Context:** PhD @ Université de Lausanne
 
 📄 **Article:** [Candioti et al., 2022, Frontiers in Earth Sciences](https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2022.785418/full "Candioti et al., 2022, Frontiers")
-
+:::
 
 <figure style="margin: 3rem 0; text-align: center;">
   <img
@@ -32,14 +35,17 @@ The models account for realistic margin architecture and include mineral phase t
 
 Leveraging 2D numerical models I analyzed the forces that drive mountain building, with a focus on long-term lithosphere–mantle interactions. My simulations quantify the balance between buoyancy forces and plate-induced shear forces, showing that both contribute significantly to orogenic dynamics. The models also explore how oceanic lithosphere strength and the crustal density structure — shaped in part by chemical reactions during metamorphism — affect deep rock recycling and surface topography in active mountain belts.
 
-**Why it matters:** This work helps clarify how internal buoyancy forces—often underestimated—play a crucial role in orogen dynamics and mountain building, offering insight into the structural evolution of regions like the Alps and Pyrenees.
+::: tip **Why it matters**
+This work helps clarify how internal buoyancy forces—often underestimated—play a crucial role in orogen dynamics and mountain building, offering insight into the structural evolution of regions like the Alps and Pyrenees.
+:::
 
+::: warning Details
 🔧 **Tech:** C, Finite Difference, MATLAB, OpenMP
 
 🏢 **Context:** PhD @ Université de Lausanne
 
 📄 **Article:** [Candioti et al., 2021, EGU Solid Earth](https://se.copernicus.org/articles/12/1749/2021/ "Candioti et al., 2021, EGU SE")
-
+:::
 
 <figure style="margin: 3rem 0; text-align: center;">
   <img
@@ -58,15 +64,21 @@ I conducted 2D thermo‑mechanical simulations that model a full tectonic cycle�
 
 The results show that mantle convective forces significantly govern both single‑side and double‑side subduction scenarios. The simulations quantify the horizontal stress levels required to trigger subduction, demonstrating that plate convergence must overcome lithosphere strength shaped by prior hyper-extension and thermal evolution.
 
-**Why it matters:** This work clarifies how tectonic forces together with suction forces in the mantle can lead to or resist subduction initiation—key to understanding continental breakup and mountain-building processes in regions such as the Alpine Tethys.
+::: tip **Why it matters**
+This work clarifies how tectonic forces together with suction forces in the mantle can lead to or resist subduction initiation—key to understanding continental breakup and mountain-building processes in regions such as the Alpine Tethys.
+:::
 
-**Special touch:** Before running the simulations we made sure that our code can simulate also mantle convection by performing a community benchmark after [Tosi et al., 2015](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015gc005807 "Tosi et al., 2015, AGU G3")
+::: info **Special touch:**
+Before running the simulations we made sure that our code can simulate also mantle convection by performing a community benchmark after [Tosi et al., 2015](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015gc005807 "Tosi et al., 2015, AGU G3").
+:::
 
+::: warning Details
 🔧 **Tech:** C, Finite Difference, MATLAB, OpenMP
 
 🏢 **Context:** PhD @ Université de Lausanne
 
 📄 **Article:** [Candioti et al., 2020, EGU Solid Earth](https://se.copernicus.org/articles/11/2327/2020/ "Candioti et al., 2020, EGU SE")
+:::
 
 
 <figure style="margin: 3rem 0; text-align: center;">

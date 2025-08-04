@@ -6,11 +6,11 @@ hero:
   text: "Simulation. Science. Software."
   tagline:  "Modeling complex systems in geoscience and industry"
   image:
-    src: /profile_bun_v1.png
+    src: /home/profile_bitmap_bw.png
   actions:
     - theme: brand
       text: 📄 View My Work
-      link: /projects/geoscientific_modelling.md
+      link: /projects/index.md
     - theme: alt
       text: 📬 Contact Me
       link: mailto:lorenzo.candioti@bluewin.ch
@@ -30,12 +30,37 @@ Currently, I’m a postdoctoral researcher at ETH Zürich where I develop reacti
 
 I share code, projects, and thoughts here — feel free to explore and reach out.
 
-## 🧪 Projects
+## 🚀 What I Work On
 
-Welcome to a selection of projects spanning research, engineering, and simulation software.
-Each one reflects a different way I approach complex systems — with a mix of coding, modeling, and physics.
+I study the **dynamics of our planet** through high‑fidelity simulations —  
+from **mantle convection** and **mountain building** to **reactive fluid systems**.  
+My focus is on **numerical modeling** that transforms complex geoscientific processes  
+into **insightful and reproducible simulations**.
 
-## 🧰 Technologies
+---
 
-- Julia, Python, OpenFOAM, Pluto.jl, Jupyter
-- Multiphase Flow · Structural Mechanics · ML Integration
+### 🧪 Selected Research Projects
+
+- **Mountain Building & Subduction Modeling** —  
+  Long-term thermo‑mechanical simulations of lithosphere–mantle interactions  
+  to explore subduction initiation and slab detachment.
+
+- **Reactive Fluid Systems** —  
+  Coupled flow and chemical models to understand subsurface processes  
+  relevant to energy, resources, and natural hazards.
+
+- **AI‑Enhanced Geoscience** —  
+  Integrating **machine learning and automatic differentiation**  
+  to accelerate and extend classical simulation methods.
+
+[➡ Explore My Research Projects](/projects/)
+
+---
+
+### 🧰 My Toolbox
+
+I combine **scientific computing** with **high‑performance workflows**, using:
+
+- Julia • C • MATLAB  
+- Pluto.jl • Jupyter  
+- Multiphase Flow • Machine Learning • Numerical Optimization
