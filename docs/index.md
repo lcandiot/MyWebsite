@@ -45,15 +45,15 @@ into **insightful and reproducible simulations**.
   Long-term thermo‑mechanical simulations of lithosphere–mantle interactions  
   to explore subduction initiation and slab detachment.
 
-- **Reactive Fluid Systems** —  
+<!-- - **Reactive Fluid Systems** —  
   Coupled flow and chemical models to understand subsurface processes  
-  relevant to energy, resources, and natural hazards.
+  relevant to energy, resources, and natural hazards. -->
 
-- **AI‑Enhanced Geoscience** —  
+<!-- - **AI‑Enhanced Geoscience** —  
   Integrating **machine learning and automatic differentiation**  
-  to accelerate and extend classical simulation methods.
+  to accelerate and extend classical simulation methods. -->
 
-[➡ Explore My Research Projects](/projects/)
+[➡ Explore My Research Projects](/projects/geoscientific_modelling)
 
 ---
 
@@ -63,4 +63,4 @@ I combine **scientific computing** with **high‑performance workflows**, using:
 
 - Julia • C • MATLAB  
 - Pluto.jl • Jupyter  
-- Multiphase Flow • Machine Learning • Numerical Optimization
+<!-- - Multiphase Flow • Machine Learning • Numerical Optimization -->

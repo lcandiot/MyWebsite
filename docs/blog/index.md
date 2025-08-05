@@ -5,7 +5,7 @@ I share research insights, coding projects, and occasional thoughts on geoscienc
 
 ---
 
-### Static Websites with VitePress
+### 🚀 Building My Personal Website with VitePress and ChatGPT
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
 
   <!-- Image first -->
@@ -17,7 +17,7 @@ I share research insights, coding projects, and occasional thoughts on geoscienc
 
   <!-- Text second -->
   <div style="flex: 1; min-width: 250px;">
-    <p><em>August 2025</em></p>
+    <p><em>August 2025 - 2 min read</em></p>
     <p>
       This summer, I built my personal website with <strong>VitePress</strong> — 
       a fast, minimal way to showcase my work.  

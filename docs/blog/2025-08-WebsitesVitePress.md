@@ -22,7 +22,7 @@ I wanted it to:
 
 ## ⚡ Why I Chose VitePress
 
-As someone familiar with Markdown and GitHub, VitePress was the natural choice.
+As someone familiar with Markdown and GitHub, [VitePress](https://vitepress.dev "https://vitepress.dev") was the natural choice.
 * It’s extremely lightweight and developer‑friendly
 * Supports Markdown‑based pages and custom layouts
 * Offers a clean, technical aesthetic that matched my style
@@ -40,7 +40,7 @@ Instead of spending hours searching for syntax details, debugging HTML, or tryin
 * Streamline entire projects by letting ChatGPT suggest structure and best practices
 
 This approach doesn’t just save time — it keeps me in the creative flow.
-I can focus on what I actually want to build, while ChatGPT takes care of the small obstacles that usually slow things down
+I can focus on what I actually want to build, while ChatGPT takes care of the small obstacles that usually slow things down.
 
 In many ways, working like this feels like pair programming with an AI:
 it challenges me to reflect on my choices, while giving me the confidence to move faster toward a polished result ✅
@@ -51,9 +51,9 @@ it challenges me to reflect on my choices, while giving me the confidence to mov
 If you’re a developer looking for a fast and flexible way to launch a personal website, I can highly recommend VitePress.
 Pair it with a bit of AI guidance, and you can go from idea to live site in just a few sessions 🚀
 
-
-💡 If you’re curious, feel free to check out my projects or reach out — I’m always happy to connect!
-
 ---
 
 *Published: August 2025*
+
+
+💡 If you’re curious, feel free to check out my projects or reach out — I’m always happy to connect!

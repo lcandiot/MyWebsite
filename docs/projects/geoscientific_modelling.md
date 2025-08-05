@@ -27,7 +27,7 @@ Understanding the mechanical thresholds for subduction helps explain how converg
     style="max-width: 100%; height: auto; border-radius: 6px;"
   />
   <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Figure: Evolution of horizontal and buoyancy forces during the formation of mountain belts.
+    Figure: Evolution of horizontal and buoyancy forces during the formation of mountain belts (taken from Candioti et al., 2022).
   </figcaption>
 </figure>
 
@@ -54,13 +54,13 @@ This work helps clarify how internal buoyancy forces—often underestimated—pl
     style="max-width: 100%; height: auto; border-radius: 6px;"
   />
   <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Figure: How the magnitude and balance of buoyancy and shear force during the formation impacts on the the geometry of the mountain belts.
+    Figure: How the magnitude and balance of buoyancy and shear force during the formation impacts on the the geometry of the mountain belts (taken from Candioti et al., 2021).
   </figcaption>
 </figure>
 
 ## Impact of upper mantle convection on long-term cycles of the lithosphere (2020)
 
-I conducted 2D thermo‑mechanical simulations that model a full tectonic cycle—extension, cooling, and convergence—over ~120 Myr. The goal was to explore how upper mantle convection influences lithospheric thinning and the mechanics of forced subduction initiation at passive margins.
+I conducted 2D thermo‑mechanical simulations that model a full tectonic cycle — extension, cooling, and convergence — over ~120 Myr. The goal was to explore how upper mantle convection influences lithospheric thinning and the mechanics of forced subduction initiation at passive margins.
 
 The results show that mantle convective forces significantly govern both single‑side and double‑side subduction scenarios. The simulations quantify the horizontal stress levels required to trigger subduction, demonstrating that plate convergence must overcome lithosphere strength shaped by prior hyper-extension and thermal evolution.
 
@@ -68,8 +68,8 @@ The results show that mantle convective forces significantly govern both single�
 This work clarifies how tectonic forces together with suction forces in the mantle can lead to or resist subduction initiation—key to understanding continental breakup and mountain-building processes in regions such as the Alpine Tethys.
 :::
 
-::: info **Special touch:**
-Before running the simulations we made sure that our code can simulate also mantle convection by performing a community benchmark after [Tosi et al., 2015](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015gc005807 "Tosi et al., 2015, AGU G3").
+::: info **Model validation:**
+Before modelling the full tectonic cycle, we made sure that our model accurately predicts real-world mantle convection by performing a community benchmark defined by [Tosi et al., 2015](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1002/2015gc005807 "Tosi et al., 2015, AGU G3").
 :::
 
 ::: warning Details
@@ -88,7 +88,7 @@ Before running the simulations we made sure that our code can simulate also mant
     style="max-width: 100%; height: auto; border-radius: 6px;"
   />
   <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Figure: Results of a convection benchmark to verify our inhouse developed CFD solver.
+    Figure: Results of a convection benchmark to verify our inhouse developed CFD solver (taken from Candioti et al., 2020).
   </figcaption>
 </figure>
 

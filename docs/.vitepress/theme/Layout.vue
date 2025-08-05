@@ -37,7 +37,7 @@
           </a>
         </div>
         <div style="font-size: 0.85rem; color: #666;">
-          © 2025 Lorenzo Candioti • Made with VitePress
+          © 2025 Lorenzo Candioti • Made with <a href="https://vitepress.dev" style="text-decoration: underline;" target="_blank" title="https://vitepress.dev"> VitePress </a>
         </div>
       </div>
     </template>
