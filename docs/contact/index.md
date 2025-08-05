@@ -4,7 +4,7 @@
 
 I’m always happy to connect, exchange ideas, and explore new collaborations — feel free to reach out in whatever way works best for you.
 
-<div style="display: flex; min-width: 800px; align-items: right; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
+<div style="display: flex; max-width: 100%; align-items: right; gap: 2rem; margin-top: 2rem; flex-wrap: wrap;">
  
  <!-- Description -->
 <div style="flex: 1; min-width: 400px;">
@@ -24,8 +24,7 @@ Simulation • Science • Software
  <!-- Profile Picture -->
 <img src="/contact/profile.png" 
      alt="Lorenzo Candioti"
-     style="width: 300px; height: 300px; border-radius: 50%; object-fit: cover;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);" />
+     style="width: 200px; max-width: 100%; border-radius: 50%; display: block; margin: 0 auto; box-shadow: 0 8px 16px rgba(0,0,0,0.1);" />
 
 </div>
 

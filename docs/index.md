@@ -8,13 +8,14 @@ hero:
   image:
     # src: /home/profile_bitmap_bw.png
     src: /home/profile_bun_v1.png
+    # src: /contact/profile.png
   actions:
     - theme: brand
       text: 📄 View My Work
       link: /projects/index.md
     - theme: alt
       text: 📬 Contact Me
-      link: mailto:lorenzo.candioti@bluewin.ch
+      link: /contact/index.md
 
 features:
   - title: Geoscientific Research 🏔️
