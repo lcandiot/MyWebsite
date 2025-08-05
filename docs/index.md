@@ -4,23 +4,23 @@ layout: home
 hero:
   name: "Dr. Lorenzo Candioti"
   text: "Simulation. Science. Software."
-  tagline:  "Modeling complex systems in geoscience and industry"
+  tagline:  "Modelling complex systems in geoscience and industry"
   image:
     # src: /home/profile_bitmap_bw.png
     src: /home/profile_bun_v1.png
     # src: /contact/profile.png
   actions:
     - theme: brand
-      text: 📄 View My Work
+      text: View My Work
       link: /projects/index.md
     - theme: alt
-      text: 📬 Contact Me
+      text: Contact Me
       link: /contact/index.md
 
 features:
-  - title: Geoscientific Research 🏔️
+  - title: Geoscientific Research
     details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and MATLAB
-  - title: Software development ⚙️
+  - title: Software development
     details: Contributing to C-libraries and developing Julia packages for geodynamic modelling — combining numerical precision with clean, reproducible code.
 ---
 ## 👋 A Bit About Me
@@ -41,7 +41,7 @@ into **insightful and reproducible simulations**.
 
 ---
 
-### 🧪 Selected Research Projects
+### Research Projects
 
 - **Mountain Building & Subduction Modeling** —  
   Long-term thermo‑mechanical simulations of lithosphere–mantle interactions  
@@ -59,7 +59,7 @@ into **insightful and reproducible simulations**.
 
 ---
 
-### 🧰 My Toolbox
+### My Toolbox
 
 I combine **scientific computing** with **high‑performance workflows**, using:
 

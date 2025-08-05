@@ -1,11 +1,11 @@
-# 📝 Updates & Blog
+# Updates & Blog
 
 Welcome to my blog!  
 I share research insights, coding projects, and occasional thoughts on geoscience, simulation, and scientific software development.
 
 ---
 
-### 🚀 Building My Personal Website with VitePress and ChatGPT
+### Building My Personal Website with VitePress and ChatGPT
 <div style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
 
   <!-- Image first -->
@@ -25,7 +25,7 @@ I share research insights, coding projects, and occasional thoughts on geoscienc
       I turned a simple idea into a polished site in just a few sessions.
     </p>
     <p>
-      <a href="/blog/2025-08-WebsitesVitePress" 
+      <a href="./2025-08-WebsitesVitePress" 
          style="text-decoration: none; color: #3b82f6; font-weight: 600;">
         ➡ Read the full post
       </a>
@@ -35,7 +35,7 @@ I share research insights, coding projects, and occasional thoughts on geoscienc
 </div>
 
 
-## 📚 Archive
+## Archive
 
 Looking for older posts?  
 [➡ Visit the full archive](/blog/archive)

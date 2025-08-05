@@ -144,3 +144,30 @@
   font-size: 0.75rem;
   line-height: 1.4;
 }
+
+/* Full-width footer with fixed black background */
+.full-width-footer {
+  width: 100vw;
+  text-align: center;
+  padding: 0.5rem 0;
+  background-color: #1e1e1e; /* Always black */
+  position: relative;
+  z-index: 1000;
+}
+
+/* Footer text and icons always white */
+.full-width-footer .footer-copy {
+  font-size: 0.75rem;
+  color: white !important;
+  margin-top: 0.25rem;
+}
+
+.full-width-footer .social-icon {
+  color: white !important;
+  transition: color 0.3s ease;
+}
+
+/* Optional: lighten icons slightly on hover */
+.full-width-footer .social-icon:hover {
+  color: #cccccc !important;
+}

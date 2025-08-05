@@ -1,6 +1,6 @@
-# 🔬 Geoscience Modelling
+# 🌍 Geoscience Modelling
 
-Welcome to a brief selection of research projects I’ve led 🚀. This list isn’t exhaustive — it includes only articles where I’m the first author.
+Welcome to a brief selection of research projects I’ve led. This list isn’t exhaustive — it includes only articles where I’m the first author.
 
 ## Horizontal force required for subduction initiation (2022)
 

@@ -1,8 +1,8 @@
 <template>
   <Layout>
     <template #layout-bottom>
-      <div style="text-align: center; margin-top: 2rem; padding-bottom: 2rem;">
-        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.5rem; align-items: center;">
+      <div class="full-width-footer">
+        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.1rem; align-items: center;">
           <!-- GitHub Icon -->
           <a href="https://github.com/lcandiot" target="_blank" class="social-icon" aria-label="GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -37,7 +37,7 @@
           </a>
           
           <!-- GitHub Pages badge centered -->
-          <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"
+          <a href="https://pages.github.com/" class="social-icon" target="_blank" rel="noopener noreferrer"
             style="text-decoration: none; font-size: 0.8rem; color: #3b82f6;">
             <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222?logo=github&logoColor=white" 
                  alt="Hosted on GitHub Pages"
@@ -45,7 +45,7 @@
           </a>
         </div>
         <!-- Copyright line -->
-        <div style="margin-top: 0.5rem;">
+        <div class="footer-copy">
           © {{ new Date().getFullYear() }} Lorenzo Candioti • Made with VitePress
         </div>
       </div>
@@ -57,14 +57,3 @@
 import DefaultTheme from 'vitepress/theme'
 const { Layout } = DefaultTheme
 </script>
-
-<style>
-.social-icon {
-  color: #000; /* Light mode */
-  transition: color 0.3s ease;
-}
-
-html.dark .social-icon {
-  color: #fff; /* Dark mode */
-}
-</style>

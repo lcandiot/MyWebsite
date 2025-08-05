@@ -1,10 +1,10 @@
-# 🔬 Projects
+# Projects
 
 Welcome to a selection of projects I’ve led and contributed to in
 
-**-** 🏔 Articles published as **lead author** in peer-reviewed geoscientific journals
+**-** Articles published as **lead author** in peer-reviewed geoscientific journals
 
-**-** ⚙️ Software development of Julia packages and C-libraries for geodynamic applications
+**-** Software development of Julia packages and C-libraries for geodynamic applications
 
 
 ## 🌍 Geoscientific Research
