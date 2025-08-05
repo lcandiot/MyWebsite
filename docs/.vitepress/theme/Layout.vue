@@ -2,7 +2,7 @@
   <Layout>
     <template #layout-bottom>
       <div style="text-align: center; margin-top: 2rem; padding-bottom: 2rem;">
-        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.5rem;">
+        <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.5rem; align-items: center;">
           <!-- GitHub Icon -->
           <a href="https://github.com/lcandiot" target="_blank" class="social-icon" aria-label="GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -35,9 +35,18 @@
                        24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
             </svg>
           </a>
+          
+          <!-- GitHub Pages badge centered -->
+          <a href="https://pages.github.com/" target="_blank" rel="noopener noreferrer"
+            style="text-decoration: none; font-size: 0.8rem; color: #3b82f6;">
+            <img src="https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-222222?logo=github&logoColor=white" 
+                 alt="Hosted on GitHub Pages"
+                 style="height: 16px; margin-right: 4px;" />
+          </a>
         </div>
-        <div style="font-size: 0.85rem; color: #666;">
-          © 2025 Lorenzo Candioti • Made with <a href="https://vitepress.dev" style="text-decoration: underline;" target="_blank" title="https://vitepress.dev"> VitePress </a>
+        <!-- Copyright line -->
+        <div style="margin-top: 0.5rem;">
+          © {{ new Date().getFullYear() }} Lorenzo Candioti • Made with VitePress
         </div>
       </div>
     </template>
