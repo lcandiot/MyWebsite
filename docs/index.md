@@ -7,7 +7,7 @@ hero:
   tagline:  "Modelling complex systems in geoscience and industry"
   image:
     # src: /home/profile_bitmap_bw.png
-    src: /home/profile_bun_v1.png
+    src: /home/profile_stahlgiesserei_cropped.png
     # src: /contact/profile.png
   actions:
     - theme: brand
