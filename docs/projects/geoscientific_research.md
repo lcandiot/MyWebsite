@@ -1,4 +1,4 @@
-# 🌍 Geoscience Modelling
+# 🌍 Geoscientific Research
 
 Welcome to a brief selection of research projects I’ve led. This list isn’t exhaustive — it includes only articles where I’m the first author.
 

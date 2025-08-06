@@ -180,3 +180,30 @@
 .full-width-footer .social-icon:hover {
   color: #cccccc !important;
 }
+
+/**
+ * Force features into two columns
+ * -------------------------------------------------------------------------- */
+/* Only affect home page with our custom class */
+.VPFeatures .items {
+  display: grid !important;
+  grid-template-columns: repeat(2, 1fr) !important;
+  gap: 0.5rem 0.5rem; /* space between columns */
+  max-width: 100% !important;
+  margin: 0 auto;       /* center the grid */
+  max-width: 1200px;    /* prevent it from stretching too wide */
+}
+
+/* Make feature cards fill the column width */
+.VPFeatures .item {
+  width: 100% !important;
+}
+
+
+.about-section {
+  text-align: center;
+  margin: 4rem auto;
+  max-width: 800px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}

@@ -1,4 +1,4 @@
-# :gear: Software development
+# :gear: Software Development
 
 On this page, I list the software projects I contribute to or develop myself. Most of them are developed in *C* or [*The Julia Programming Language*](https://julialang.org "https://julialang.org").
 

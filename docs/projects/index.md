@@ -11,7 +11,7 @@ Welcome to a selection of projects I’ve led and contributed to in
 
 Thermo‑mechanical and petrological simulations of lithosphere–mantle interaction to study subduction initiation, orogeny, and slab detachment.
 
-**[**➡ Explore Geoscientific Research**](/projects/geoscientific_modelling)**
+**[**➡ Explore Geoscientific Research**](/projects/geoscientific_research)**
 
 
 ## :gear: Software Development
