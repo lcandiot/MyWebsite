@@ -22,7 +22,7 @@ Understanding the mechanical thresholds for subduction helps explain how converg
 
 <figure>
   <img
-    src="/projects/Candioti_et_al_2022_forces.png"
+    src="/projects/geoscientific_research/Candioti_et_al_2022_forces.png"
     alt="Horizontal forces"
   />
   <figcaption>
@@ -48,7 +48,7 @@ This work helps clarify how internal buoyancy forces—often underestimated—pl
 
 <figure>
   <img
-    src="/projects/Candioti_et_al_2021_buoyancy.png"
+    src="/projects/geoscientific_research/Candioti_et_al_2021_buoyancy.png"
     alt="Buoyancy vs shear"
   />
   <figcaption>
@@ -81,7 +81,7 @@ Before modelling the full tectonic cycle, we made sure that our model accurately
 
 <figure>
   <img
-    src="/projects/Candioti_et_al_2020_benchmark.png"
+    src="/projects/geoscientific_research/Candioti_et_al_2020_benchmark.png"
     alt="Convection benchmark"
   />
   <figcaption>

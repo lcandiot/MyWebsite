@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Dr. Lorenzo Candioti"
   text: "Simulation. Science. Software."
-  tagline:  "Modelling complex systems in geoscience and industry"
+  tagline: "Modelling complex systems in geoscience and industry"
   image:
     src: /home/profile_stahlgiesserei_cropped.png
   actions:
@@ -43,7 +43,7 @@ features:
     <figure>
       <img src="./public/home/FullAlpineCycle_PhD.gif" alt="Geoscience simulation animation">
         <figcaption>
-        Movie: This cross-section model shows how the European Alps formed, from the opening of the Alpine-Tethys ocean to subduction, burial, and exhumation, based on work from my PhD that led to four published papers.
+          Movie: This 2D thermo-mechanical model shows the evolution of the European Alps from the opening of the Alpine-Tethys ocean to subduction, burial, and subsequent exhumation of European continental crust. It is a cross-sectional view through the mountain range, revealing its internal deformation and temperature distribution. The simulation is based on my PhD research, which led to four peer-reviewed publications.
         </figcaption>
     </figure>
     </div>
