@@ -20,13 +20,12 @@ Understanding the mechanical thresholds for subduction helps explain how converg
 📄 **Article:** [Candioti et al., 2022, Frontiers in Earth Sciences](https://www.frontiersin.org/journals/earth-science/articles/10.3389/feart.2022.785418/full "Candioti et al., 2022, Frontiers")
 :::
 
-<figure style="margin: 3rem 0; text-align: center;">
+<figure>
   <img
     src="/projects/Candioti_et_al_2022_forces.png"
     alt="Horizontal forces"
-    style="max-width: 100%; height: auto; border-radius: 6px;"
   />
-  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+  <figcaption>
     Figure: Evolution of horizontal and buoyancy forces during the formation of mountain belts (taken from Candioti et al., 2022).
   </figcaption>
 </figure>
@@ -47,13 +46,12 @@ This work helps clarify how internal buoyancy forces—often underestimated—pl
 📄 **Article:** [Candioti et al., 2021, EGU Solid Earth](https://se.copernicus.org/articles/12/1749/2021/ "Candioti et al., 2021, EGU SE")
 :::
 
-<figure style="margin: 3rem 0; text-align: center;">
+<figure>
   <img
     src="/projects/Candioti_et_al_2021_buoyancy.png"
     alt="Buoyancy vs shear"
-    style="max-width: 100%; height: auto; border-radius: 6px;"
   />
-  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+  <figcaption>
     Figure: How the magnitude and balance of buoyancy and shear force during the formation impacts on the the geometry of the mountain belts (taken from Candioti et al., 2021).
   </figcaption>
 </figure>
@@ -81,13 +79,12 @@ Before modelling the full tectonic cycle, we made sure that our model accurately
 :::
 
 
-<figure style="margin: 3rem 0; text-align: center;">
+<figure>
   <img
     src="/projects/Candioti_et_al_2020_benchmark.png"
     alt="Convection benchmark"
-    style="max-width: 100%; height: auto; border-radius: 6px;"
   />
-  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+  <figcaption>
     Figure: Results of a convection benchmark to verify our inhouse developed CFD solver (taken from Candioti et al., 2020).
   </figcaption>
 </figure>

@@ -199,11 +199,26 @@
   width: 100% !important;
 }
 
-
-.about-section {
-  text-align: center;
-  margin: 4rem auto;
-  max-width: 800px;
-  font-size: 1.1rem;
-  line-height: 1.6;
+/* Global figure caption styles */
+figure {
+  display: inline-block;   /* Figure width matches its content by default */
+  margin: 3rem 0;
+  text-align: left;
+}
+figcaption {
+  font-size: 0.9rem;        /* Default font size */
+  color: #555;              /* Default text color */
+  text-align: left;       /* Or "left" if you prefer */
+  margin-top: 0.25rem;      /* Space between gif/image and caption */
+  max-width: 100%;          /* Prevents caption overflow */
+}
+/* Dark mode: bump contrast */
+html.dark figcaption {
+  color: var(--vp-c-text-1);        /* brighter text */
+  opacity: 0.9;                     /* slight lift without pure white */
+}
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }

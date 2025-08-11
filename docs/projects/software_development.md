@@ -17,13 +17,12 @@ This simulation was part of my PhD research.
 🏢 **Context:** Lithsopheric-scale geodynamic modelling | PhD @ Université de Lausanne
 :::
 
-<figure style="margin: 3rem 0; text-align: center;">
+<figure>
   <img
     src="/projects/software_dev/UHP_exhum_alps.gif"
     alt="(U)HP rock exhumation"
-    style="max-width: 100%; height: auto; border-radius: 6px;"
   />
-  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
-    Animation: <em>MDOODZ</em>-simulation of (U)HP units exhuming along the plate interface.
+  <figcaption>
+    Movie: <em>MDOODZ</em>-simulation of (U)HP units exhuming along the plate interface.
   </figcaption>
 </figure>

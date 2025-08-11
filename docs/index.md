@@ -42,7 +42,7 @@ features:
     <div class="about-gif">
     <figure>
       <img src="./public/home/FullAlpineCycle_PhD.gif" alt="Geoscience simulation animation">
-        <figcaption style="font-size: 0.9rem; color: #555;">
+        <figcaption>
         Movie: This cross-section model shows how the European Alps formed, from the opening of the Alpine-Tethys ocean to subduction, burial, and exhumation, based on work from my PhD that led to four published papers.
         </figcaption>
     </figure>
@@ -52,8 +52,8 @@ features:
 <style>
 .about-container {
   display: flex;
-  align-items: center;
-  text-align: center;
+  align-items: left;
+  text-align: left;
   justify-content: space-between;
   flex-direction: column;
   width: 100%;
@@ -83,7 +83,7 @@ features:
   width: 100%;
   flex: 1;
   display: flex;
-  justify-content: center;
+  justify-content: left;
   text-align: left
 }
 
@@ -91,11 +91,6 @@ features:
   height: auto;
   width: 100%;
   border-radius: 8px;
-}
-
-.about-gif figcaption{
-  width: 100%;
-  text-align: center
 }
 </style>
 
