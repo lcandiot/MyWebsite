@@ -20,20 +20,75 @@ features:
       details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and MATLAB.
       link: /projects/geoscientific_research
     - title: Software Development
-      details: Contributing to C-libraries and developing Julia packages for geodynamic modelling — combining numerical precision with clean, reproducible code.
+      details: Contributing to C-libraries and developing Julia packages for geodynamic modelling.
       link: /projects/software_development
 ---
 <!-- About section -->
-<section class="about-section">
   <h2>About Me</h2>
-  <p>I enjoy building models, writing code, and working with people who like solving hard problems. 
+  <div class="about-container">
+    <!-- Text Column -->
+    <div class="about-text">
+    <p>
+      I love building models, writing code, and teaming up with people who enjoy tackling tough problems. My work lives where geoscience, fluid mechanics, and machine learning meet, always with a focus on keeping it practical and useful.
+    </p>
+    <p>
+      Right now, I’m a postdoctoral researcher at ETH Zürich, creating reactive transport models and AI-driven workflows for subsurface systems. Before that, I worked as a CAE engineer in industry, using CFD and FEM tools to boost product performance and speed up development.
+    </p>
+    <p>
+      I’m always happy to connect, swap ideas, and explore new projects in science, data analysis, machine learning, and engineering. If any of that sounds interesting to you, drop me a message. I would love to hear from you.
+    </p>
+    </div>
+    <!-- GIF Column -->
+    <div class="about-gif">
+    <figure style="text-align: left">
+      <img src="./public/home/FullAlpineCycle_PhD.gif" alt="Geoscience simulation animation">
+        <figcaption style="font-size: 0.9rem; color: #555;">
+        This cross-section model shows how the European Alps formed, from the opening of the Alpine-Tethys ocean to subduction, burial, and exhumation, based on work from my PhD that led to four published papers.
+        </figcaption>
+    </figure>
+    </div>
+  </div>
 
-  My work sits at the intersection of geoscience, fluid mechanics, and machine learning — always with a focus on practical application.
+<style>
+.about-container {
+  display: flex;
+  align-items: top;
+  text-align: center;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  max-width: none;
+  gap: 2rem;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
 
-  Currently, I’m a postdoctoral researcher at ETH Zürich where I develop reactive transport models and AI-driven workflows for subsurface systems. I’ve also worked as a CAE engineer in industry, applying CFD and FEM tools to improve product performance and time to market.
+.about-text {
+  flex: 1;
+  text-align: left;
+}
 
-  I share code, projects, and thoughts here — feel free to explore and reach out.
-  </p>
-</section>
+.about-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+
+.about-text p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+.about-gif {
+  flex: 1;
+  display: flex;
+  justify-content: left;
+}
+
+.about-gif img {
+  height: auto;
+  border-radius: 8px;
+}
+</style>
 
 

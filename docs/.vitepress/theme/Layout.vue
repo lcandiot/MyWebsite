@@ -4,7 +4,7 @@
       <div class="full-width-footer">
         <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.1rem; align-items: center;">
           <!-- GitHub Icon -->
-          <a href="https://github.com/lcandiot" target="_blank" class="social-icon" aria-label="GitHub">
+          <a href="https://github.com/lcandiot" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="GitHub">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
               <path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.302 
                        3.438 9.8 8.205 11.387.6.113.82-.258.82-.577 
@@ -23,7 +23,7 @@
           </a>
 
           <!-- LinkedIn Icon -->
-          <a href="https://www.linkedin.com/in/lorenzocandioti/" target="_blank" class="social-icon" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/lorenzocandioti/" target="_blank" rel="noopener noreferrer" class="social-icon" aria-label="LinkedIn">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
               <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.025-3.037-1.85-3.037 
                        -1.851 0-2.135 1.445-2.135 2.939v5.667H9.356V9h3.414v1.561h.049 
@@ -46,7 +46,7 @@
         </div>
         <!-- Copyright line -->
         <div class="footer-copy">
-          © {{ new Date().getFullYear() }} Lorenzo Candioti • Made with VitePress
+          © {{ new Date().getFullYear() }} Lorenzo Candioti • Made with <a href = "https://vitepress.dev" style="text-decoration: underline;"> VitePress </a>
         </div>
       </div>
     </template>
