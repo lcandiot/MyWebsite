@@ -89,12 +89,12 @@ features:
 
 .about-gif img {
   height: auto;
-  width: 640px;
+  width: 100%;
   border-radius: 8px;
 }
 
 .about-gif figcaption{
-  width: 640px;
+  width: 100%;
   text-align: center
 }
 </style>
