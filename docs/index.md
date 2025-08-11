@@ -40,10 +40,10 @@ features:
     </div>
     <!-- GIF Column -->
     <div class="about-gif">
-    <figure style="text-align: left">
+    <figure>
       <img src="./public/home/FullAlpineCycle_PhD.gif" alt="Geoscience simulation animation">
         <figcaption style="font-size: 0.9rem; color: #555;">
-        This cross-section model shows how the European Alps formed, from the opening of the Alpine-Tethys ocean to subduction, burial, and exhumation, based on work from my PhD that led to four published papers.
+        Movie: This cross-section model shows how the European Alps formed, from the opening of the Alpine-Tethys ocean to subduction, burial, and exhumation, based on work from my PhD that led to four published papers.
         </figcaption>
     </figure>
     </div>
@@ -52,10 +52,10 @@ features:
 <style>
 .about-container {
   display: flex;
-  align-items: top;
+  align-items: center;
   text-align: center;
   justify-content: space-between;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
   max-width: none;
   gap: 2rem;
@@ -80,14 +80,22 @@ features:
 }
 
 .about-gif {
+  width: 100%;
   flex: 1;
   display: flex;
-  justify-content: left;
+  justify-content: center;
+  text-align: left
 }
 
 .about-gif img {
   height: auto;
+  width: 640px;
   border-radius: 8px;
+}
+
+.about-gif figcaption{
+  width: 640px;
+  text-align: center
 }
 </style>
 
