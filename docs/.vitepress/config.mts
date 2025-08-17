@@ -16,7 +16,7 @@ export default defineConfig({
       // Sidebar for /projects/*
       '/projects/': [
         {
-          text: 'Projects', link: '/projects/index',
+          text: 'Projects',
           items: [
             { text: 'Geoscientific Research', link: '/projects/geoscientific_research' },
             { text: 'Software Development', link: '/projects/software_development' },
@@ -29,7 +29,7 @@ export default defineConfig({
       // Sidebar for /blog/*
       '/blog/': [
         {
-          text: 'Updates & Blog', link: '/blog/index',
+          text: 'Updates & Blog',
           items: [
             { text: 'August 2025', link: '/blog/2025-08-WebsitesVitePress' },
             // Example: First blog post

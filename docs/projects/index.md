@@ -11,6 +11,16 @@ Welcome to a selection of projects I’ve led and contributed to in
 
 Thermo‑mechanical and petrological simulations of lithosphere–mantle interaction to study subduction initiation, orogeny, and slab detachment.
 
+<figure>
+  <img
+    src="/projects/geoscientific_research/Candioti_et_al_2022_SIsketch.png"
+    alt="Subduction initiation Alps"
+  />
+  <figcaption>
+    Figure: Conceptional cross-sections illustrating the geodynamic evolution from subduction initiation to the formation of an accretionary wedge and subsequent mountain building, followed by slab detachment in the Alps (taken from Candioti et al., 2022).
+  </figcaption>
+</figure>
+
 **[**➡ Explore Geoscientific Research**](/projects/geoscientific_research)**
 
 
