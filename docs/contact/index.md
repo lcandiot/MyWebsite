@@ -15,7 +15,7 @@ Simulation • Science • Software
 </p>
 
 <p style="margin-top: 0.8rem;">
-📧 <a href="mailto:lorenzo.candioti@email.com">Send me a mail: lorenzo.candioti@bluewin.com</a><br>
+📧 <a href="mailto:lorenzo.candioti@bluewin.ch">Send me a mail: lorenzo.candioti@bluewin.com</a><br>
 💼 <a href="https://www.linkedin.com/in/lorenzocandioti/" target="_blank">Check out my LinkedIn profile</a><br>
 💻 <a href="https://github.com/lcandiot" target="_blank">Browse through my software</a>
 </p>
