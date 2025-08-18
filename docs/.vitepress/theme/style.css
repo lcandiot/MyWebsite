@@ -222,3 +222,12 @@ img {
   height: auto;
   border-radius: 8px;
 }
+/* Hide the anchor link icon (#) next to headings */
+.VPDoc h1:hover .header-anchor,
+.VPDoc h2:hover .header-anchor,
+.VPDoc h3:hover .header-anchor,
+.VPDoc h4:hover .header-anchor,
+.VPDoc h5:hover .header-anchor,
+.VPDoc h6:hover .header-anchor {
+  display: none;
+}

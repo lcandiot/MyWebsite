@@ -4,6 +4,7 @@ export default defineConfig({
   base: '/MyWebsite/',
   title: "Dr. Lorenzo Candioti",
   description: "A Scientist with experience in Multi-Physics Simulation, Machine Learning, and Data Analysis.",
+  appearance: false, // This deactivates dark theme switch
   themeConfig: {
     nav: [
       { text: 'Home', link: '/' },
