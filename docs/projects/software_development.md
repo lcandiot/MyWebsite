@@ -1,10 +1,10 @@
 # :gear: Software Development
 
-On this page, I list the software projects I contribute to or develop myself. Most of them are developed in *C* or [*The Julia Programming Language*](https://julialang.org "https://julialang.org").
+On this page, I list the software projects I contribute to or develop myself. Most of them are developed in *C* or [***The Julia Programming Language***](https://julialang.org "https://julialang.org").
 
 ## MDOODZ - a 2D geodynamic modelling library
 
-I first started working with the geodynamic modeling software [*MDOODZ*](https://github.com/tduretz/MDOODZ7.0 "https://github.com/tduretz/MDOODZ7.0") during my PhD and still contribute to its development today.
+I first started working with the geodynamic modeling software [***MDOODZ***](https://github.com/tduretz/MDOODZ7.0 "https://github.com/tduretz/MDOODZ7.0") during my PhD and still contribute to its development today.
 *MDOODZ* is a C-library for simulating geological processes across a wide range of scales — from the deformation of individual mineral grains to lithospheric-scale rifting, subduction, Archean tectonics, and mantle convection.
 
 The animation below highlights one of its capabilities: predicting the burial and exhumation cycle of ultra-high-pressure (UHP) tectonic units in the European Alps.
@@ -45,6 +45,6 @@ Over time, I realized I was repeatedly re-implementing the same components for v
   </figcaption>
 </figure>
 
-To streamline this process, I decided to consolidate all these functions into a single framework: [***GeoUtils.jl***]((https://github.com/lcandiot/GeoUtils.jl)). The package is still evolving, and I continue to expand it as new tasks arise, but it’s already rewarding to have all essential tools gathered in one place.
+To streamline this process, I decided to consolidate all these functions into a single framework: [***GeoUtils.jl***](https://github.com/lcandiot/GeoUtils.jl "https://github.com/lcandiot/GeoUtils.jl"). The package is still evolving, and I continue to expand it as new tasks arise, but it’s already rewarding to have all essential tools gathered in one place.
 
 At this stage, the package isn’t registered in Julia’s General registry since it’s highly personal and not yet broadly applicable. However, that might change in the future. Until then, you can install it directly from GitHub.
