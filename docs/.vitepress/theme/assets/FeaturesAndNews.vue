@@ -163,7 +163,7 @@ function resolveHref(link?: string): string | undefined {
 .fn-card {
   background: var(--vp-c-bg-soft);
   border-radius: 12px;
-  height: 120px; /* 👈 fixed height for all feature cards */
+  /* height: 120px; /* 👈 fixed height for all feature cards */
 }
 
 /* Inner clickable area */

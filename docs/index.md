@@ -17,7 +17,7 @@ hero:
 
 features:
     - title: Research
-      details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and Python.
+      details: High-fidelity modelling of convection, mountain formation, and reactive fluid systems using Julia, C, and Python.
       link: /projects/geoscientific_research/
     - title: Software Development
       details: Contributing to C-libraries and developing Julia packages for geodynamic modelling.
