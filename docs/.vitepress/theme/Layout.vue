@@ -1,5 +1,17 @@
+<script setup lang="ts">
+import DefaultTheme from 'vitepress/theme'
+import NewsList from './assets/FeaturesAndNews.vue'
+const { Layout } = DefaultTheme
+</script>
+
 <template>
   <Layout>
+    <!-- Put our combined features+news block under the hero -->
+    <template #home-hero-after>
+      <NewsList />
+    </template>
+
+<!-- Existing footer -->
     <template #layout-bottom>
       <div class="full-width-footer">
         <div style="display: flex; justify-content: center; gap: 1.5rem; margin-bottom: 0.1rem; align-items: center;">
@@ -52,8 +64,3 @@
     </template>
   </Layout>
 </template>
-
-<script setup>
-import DefaultTheme from 'vitepress/theme'
-const { Layout } = DefaultTheme
-</script>

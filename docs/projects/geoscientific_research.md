@@ -26,7 +26,7 @@ Understanding the mechanical thresholds for subduction helps explain how converg
     alt="Horizontal forces"
   />
   <figcaption>
-    Figure: Evolution of horizontal and buoyancy forces during the formation of mountain belts (taken from Candioti et al., 2022).
+    <strong> Figure </strong> Evolution of horizontal and buoyancy forces during the formation of mountain belts (taken from Candioti et al., 2022).
   </figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ This work helps clarify how internal buoyancy forces—often underestimated—pl
     alt="Buoyancy vs shear"
   />
   <figcaption>
-    Figure: How the magnitude and balance of buoyancy and shear force during the formation impacts on the the geometry of the mountain belts (taken from Candioti et al., 2021).
+    <strong> Figure </strong> How the magnitude and balance of buoyancy and shear force during the formation impacts on the the geometry of the mountain belts (taken from Candioti et al., 2021).
   </figcaption>
 </figure>
 
@@ -85,7 +85,7 @@ Before modelling the full tectonic cycle, we made sure that our model accurately
     alt="Convection benchmark"
   />
   <figcaption>
-    Figure: Results of a convection benchmark to verify our inhouse developed CFD solver (taken from Candioti et al., 2020).
+    <strong> Figure </strong> Results of a convection benchmark to verify our inhouse developed CFD solver (taken from Candioti et al., 2020).
   </figcaption>
 </figure>
 

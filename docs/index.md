@@ -16,13 +16,22 @@ hero:
       link: /contact/index.md
 
 features:
-    - title: Geoscientific Research
-      details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and MATLAB.
-      link: /projects/geoscientific_research
+    - title: Research
+      details: High-fidelity modelling of mantle convection, mountain formation, and reactive fluid systems using Julia, C, and Python.
+      link: /projects/geoscientific_research/
     - title: Software Development
       details: Contributing to C-libraries and developing Julia packages for geodynamic modelling.
-      link: /projects/software_development
+      link: /projects/software_development/
+
+news:
+  - date: 28.10.2025
+    text: Speaking at the <strong><i> Swiss Geosciences Meeting 2025 </i></strong>! In my talk, I will shed light on validating thermodynamic models and neural networks.
+      See you in <strong> Bern on  Saturday, 6 December</strong>!
+  - date: 23.10.2025
+    text: We submitted a manuscript on validating thermodynamic models and designing neural networks for
+      fast inference of material properties to <strong><i> Geochemistry, Geophysics, Geosystems </i></strong>. As soon as the preprint is available, I'll link it here.
 ---
+
 <!-- About section -->
   <h2>About Me</h2>
   <div class="about-container">
@@ -43,7 +52,7 @@ features:
     <figure>
       <img src="./public/home/FullAlpineCycle_PhD.gif" alt="Geoscience simulation animation">
         <figcaption>
-          Movie: This 2D thermo-mechanical model shows the evolution of the European Alps from the opening of the Alpine-Tethys ocean to subduction, burial, and subsequent exhumation of European continental crust. It is a cross-sectional view through the mountain range, revealing its internal deformation and temperature distribution. The simulation is based on my PhD research, which led to four peer-reviewed publications.
+          <strong> Movie </strong> This 2D thermo-mechanical model shows the evolution of the European Alps from the opening of the Alpine-Tethys ocean to subduction, burial, and subsequent exhumation of European continental crust. It is a cross-sectional view through the mountain range, revealing its internal deformation and temperature distribution. The simulation is based on my PhD research, which led to four peer-reviewed publications.
         </figcaption>
     </figure>
     </div>
@@ -91,6 +100,9 @@ features:
   height: auto;
   width: 100%;
   border-radius: 8px;
+}
+.feature-news-container {
+  width: 100%;
 }
 </style>
 

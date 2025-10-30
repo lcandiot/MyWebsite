@@ -1,0 +1,47 @@
+# 🫧 Exploring how rocks move – and why it matters for our future
+
+Rocks are truly remarkable materials. Their minerals form under different temperatures, pressures and chemical conditions, creating an incredible variety of colours and textures. A single hand specimen from high above Zermatt, the peaceful village below the Matterhorn, can tell a story millions of years old. This variety alone makes rocks fascinating, but what captivates me even more is how they behave. Over millions of years they can flow like honey. Over thousands they bend gently like an elastic beam. And when stress builds too quickly, they can suddenly break, releasing energy that shakes the ground in the form of earthquakes and, at times, tsunamis.
+
+<figure style="margin: 3rem 0; text-align: center;">
+  <img
+    src="/blog/2025-10-RodingiteZermatt.jpg"
+    alt="Rodingite from Zermatt"
+    style="max-width: 100%; height: auto; border-radius: 6px;"
+  />
+  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+    <strong> Figure </strong> Beautiful rodingite from Zermatt (close to Trockener Steg, ca. 3000 m a.s.l.). These minerals form when seawater infiltrates the crust and reacts with mafic or ultramafic rocks.
+  </figcaption>
+</figure>
+
+Studying these processes is not easy. They unfold over times far beyond a human lifetime and across scales ranging from tiny mineral grains to entire mountain belts. Since we cannot simply watch them happen or fully recreate them in the lab, we rely on one of science’s most powerful tools: computers. With clever algorithms and numerical models, we can simulate the unobservable and test our understanding of how rocks deform and evolve through time.
+
+### Materials, methods, models
+
+As a geodynamicist, I spend much of my time building and running these models. Over the years I have worked with several programming languages and methods, each offering a new way to explore how rocks respond to stress. Yet, regardless of the software, the true language of our models is mathematics. Calculus lies at the heart of it, and the fundamental principles we use are conservation laws. We assume that within a given volume, mass, momentum and energy remain constant over time. Once we define a model that mimics nature, we need to decide how to solve these equations.
+
+Most often, we treat rocks as a continuum; something without gaps or voids, where forces and properties vary smoothly through space. This makes it easier to set up and analyse models of intact materials. Of course, computers cannot deal with infinite continua, so we divide them into a finite number of points or elements that represent our domain. Three main approaches dominate this field: finite differences, finite elements and finite volumes. Finite elements and finite volumes use the integrated, or “weak”, form of equations, while finite differences work directly with their differential, or “strong”, form. From my experience, finite elements and finite volumes are more complex to implement but excel at handling intricate geometries and free surfaces. Finite differences, on the other hand, are simpler and have allowed me to solve most of the problems I’ve encountered so far. They also gave me a smooth entry into the world of numerical modelling and programming.
+
+Rocks, however, are far from simple. Their behaviour is often unpredictable, and even the most sophisticated continuum models reach their limits when rocks fracture. We can still approximate this by including plasticity models, and these have improved a lot in recent years. But when a rock breaks, it’s no longer a single continuous body, and the assumptions of continuum theory start to fail. A different perspective can help like one that treats the material not as a smooth medium, but as a collection of individual particles interacting with each other. This is where <i>Smooth Particle Hydrodynamics</i> (SPH) comes in.
+
+<figure style="margin: 3rem 0; text-align: center;">
+  <img
+    src="/blog/2025-10-SPHPoiseuille.gif"
+    alt="Poiseuille Flow between infinite plates"
+    style="max-width: 100%; height: auto; border-radius: 6px;"
+  />
+  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+    <strong> Movie </strong> Flow field (left) of water running between two infinite plates calculated using the SPH method. The solution is approximately equal to the analytical solution derived by <i>Poiseuille</i> (right).
+  </figcaption>
+</figure>
+
+I had never worked with SPH before, so I decided to give it a try. I read through the literature, asked ChatGPT for guidance when I got stuck, and after a few weekends and late evenings, I managed to develop a basic SPH model that simulates fluid flow. The first step was to verify it: making sure the code runs, is well structured and documented, and produces reliable results. I tested it using the classical example of Poiseuille flow, where water runs between two infinite plates. The results looked promising: the blue dots from my simulation matched closely with the analytical solution derived by <i>Jean-Louis-Marie Poiseuille</i>.
+
+That was an exciting moment. For now, this project is something I do for fun, but it also opens up possibilities. I hope to see whether SPH can be applied to simulate fracturing in geological materials which is something that could have real impact in fields like reservoir modelling, geothermal energy and carbon storage. There’s plenty for me to explore in the weekends ahead.
+
+### Why do we need geologists?
+
+Rocks are not only fascinating to study, they are essential to our future. Understanding them is key to many of the challenges our society faces today. As we work to mitigate climate change, we must develop cleaner energy sources, use resources more efficiently and find safe ways to store carbon underground. For all of this, we need geologists who understand what lies beneath our feet. Sadly, student numbers in geology have declined over the past decade, which worries me. Now, perhaps more than ever, we need skilled and curious minds in the geosciences. The good news is that it has never been easier to start. Research is becoming more accessible, programming is supported by powerful languages like Julia and Python, and AI is opening entirely new possibilities. The tools are ready. What we need now are the people who will use them to shape a more sustainable future.
+
+---
+
+*Published: October 2025*

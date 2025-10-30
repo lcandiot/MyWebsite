@@ -23,6 +23,28 @@ This simulation was part of my PhD research.
     alt="(U)HP rock exhumation"
   />
   <figcaption>
-    Movie: <em>MDOODZ</em>-simulation of (U)HP units exhuming along the plate interface.
+    <strong> Movie </strong> <em>MDOODZ</em>-simulation of (U)HP units exhuming along the plate interface.
   </figcaption>
 </figure>
+
+## Julia Packages
+
+### GeoUtils.jl
+
+For many of my projects, I often need software tools that are closely tailored to the specific problems I’m working on. Since these needs are highly individual, it wasn’t surprising to find relevant pieces scattered across various existing Julia packages. Still, the solutions I built, along with all their dependencies, often felt stitched together and increasingly cumbersome to maintain. 
+
+Over time, I realized I was repeatedly re-implementing the same components for visualization, numerical schemes, and statistical data analysis. One example is the creation of 2D *kernel density maps* (KDE). 
+
+<figure>
+  <img
+    src="/projects/software_dev/kde_map_Makie.png"
+    alt="2D Kernel density map"
+  />
+  <figcaption>
+    <strong> Figure </strong> Visualizing data coverage with KDEs using <a href=https://github.com/lcandiot/GeoUtils.jl > <i>GeoUtils.jl</i> </a>.
+  </figcaption>
+</figure>
+
+To streamline this process, I decided to consolidate all these functions into a single framework: [***GeoUtils.jl***]((https://github.com/lcandiot/GeoUtils.jl)). The package is still evolving, and I continue to expand it as new tasks arise, but it’s already rewarding to have all essential tools gathered in one place.
+
+At this stage, the package isn’t registered in Julia’s General registry since it’s highly personal and not yet broadly applicable. However, that might change in the future. Until then, you can install it directly from GitHub.

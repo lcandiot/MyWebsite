@@ -30,8 +30,9 @@ export default defineConfig({
       // Sidebar for /blog/*
       '/blog/': [
         {
-          text: 'Updates & Blog',
+          text: 'Latest',
           items: [
+            { text: 'October 2025', link: '/blog/2025-10-SPHGeodynamics' },
             { text: 'August 2025', link: '/blog/2025-08-WebsitesVitePress' },
             // Example: First blog post
             { text: 'Archive', link: '/blog/archive' }

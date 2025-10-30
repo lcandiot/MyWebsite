@@ -181,23 +181,10 @@
   color: #cccccc !important;
 }
 
-/**
- * Force features into two columns
- * -------------------------------------------------------------------------- */
-/* Only affect home page with our custom class */
-.VPFeatures .items {
-  display: grid !important;
-  grid-template-columns: repeat(2, 1fr) !important;
-  gap: 0.5rem 0.5rem; /* space between columns */
-  max-width: 100% !important;
-  margin: 0 auto;       /* center the grid */
-  max-width: 1200px;    /* prevent it from stretching too wide */
-}
-
 /* Make feature cards fill the column width */
-.VPFeatures .item {
+/* .VPFeatures .item {
   width: 100% !important;
-}
+} */
 
 /* Global figure caption styles */
 figure {
@@ -231,3 +218,8 @@ img {
 .VPDoc h6:hover .header-anchor {
   display: none;
 }
+
+/* Hide the default features section the theme renders,
+   because NewsList.vue now renders features itself */
+/* Hide the default features block rendered by the theme */
+.VPHome .VPFeatures { display: none !important; }

@@ -1,4 +1,4 @@
-# Projects
+# 💼 Projects
 
 Welcome to a selection of projects I’ve led and contributed to in
 
@@ -7,7 +7,7 @@ Welcome to a selection of projects I’ve led and contributed to in
 **-** Software development of Julia packages and C-libraries for geodynamic applications
 
 
-## 🌍 Geoscientific Research
+## Geoscientific Research
 
 Thermo‑mechanical and petrological simulations of lithosphere–mantle interaction to study subduction initiation, orogeny, and slab detachment.
 
@@ -17,16 +17,27 @@ Thermo‑mechanical and petrological simulations of lithosphere–mantle interac
     alt="Subduction initiation Alps"
   />
   <figcaption>
-    Figure: Conceptional cross-sections illustrating the geodynamic evolution from subduction initiation to the formation of an accretionary wedge and subsequent mountain building, followed by slab detachment in the Alps (taken from Candioti et al., 2022).
+    <strong> Figure </strong> Conceptional cross-sections illustrating the geodynamic evolution from subduction initiation to the formation of an accretionary wedge and subsequent mountain building, followed by slab detachment in the Alps (taken from Candioti et al., 2022).
   </figcaption>
 </figure>
 
 **[**➡ Explore Geoscientific Research**](/projects/geoscientific_research)**
 
 
-## :gear: Software Development
+## Software Development
 
 Development of high‑performance packages in Julia and contributions to C‑based numerical solvers for geoscience applications.
+
+<figure style="margin: 3rem 0; text-align: center;">
+  <img
+    src="/blog/2025-10-SPHPoiseuille.gif"
+    alt="Poiseuille Flow between infinite plates"
+    style="max-width: 100%; height: auto; border-radius: 6px;"
+  />
+  <figcaption style="margin-top: 0.75rem; font-size: 0.9rem; color: #666;">
+    <strong> Movie </strong> Flow field (left) of water running between two infinite plates calculated using the SPH method. The solution is approximately equal to the analytical solution derived by <i>Poiseuille</i> (right).
+  </figcaption>
+</figure>
 
 **[**➡ Explore Software Development**](/projects/software_development)**
 
