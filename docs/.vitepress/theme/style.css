@@ -223,3 +223,15 @@ img {
    because NewsList.vue now renders features itself */
 /* Hide the default features block rendered by the theme */
 .VPHome .VPFeatures { display: none !important; }
+
+/* URL properties */
+a {
+  color: var(--vp-c-brand-2);
+}
+a:hover {
+  text-decoration: underline;
+}
+a:visited {
+  color: purple;
+  text-decoration: underline;
+}

@@ -24,12 +24,12 @@ features:
       link: /projects/software_development/
 
 news:
+  - date: 04.11.2025
+    text: 🚨📝 <strong> Preprint alert </strong> - our manuscript on validating thermodynamic models and designing neural networks for
+      fast inference of material properties submitted to <strong><i> Geochemistry, Geophysics, Geosystems </i></strong> is now available on <a href="https://doi.org/10.22541/essoar.176169621.16239367/v1" target="_blank"><strong><i>ESS Open Archive</i></strong></a>!
   - date: 28.10.2025
     text: Speaking at the <strong><i> Swiss Geosciences Meeting 2025 </i></strong>! In my talk, I will shed light on validating thermodynamic models and neural networks.
       See you in <strong> Bern on  Saturday, 6 December</strong>!
-  - date: 23.10.2025
-    text: We submitted a manuscript on validating thermodynamic models and designing neural networks for
-      fast inference of material properties to <strong><i> Geochemistry, Geophysics, Geosystems </i></strong>. As soon as the preprint is available, I'll link it here.
 ---
 
 <!-- About section -->

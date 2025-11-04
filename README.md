@@ -14,3 +14,10 @@ To run the site locally:
 ```bash
 npm install
 npx vitepress dev docs
+```
+
+And launch the site on a local host via the terminal
+
+```bash
+npm run docs:dev
+```
