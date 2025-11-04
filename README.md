@@ -7,7 +7,7 @@ This is the source code for my personal website, built using [VitePress](https:/
 ## 🚀 Development
 This is just one way to organise the website content. I find it quite convenient and I created some customised solutions, for example, displaying the features and a news area next to each other on the home page with the help of an additional `.vue` file instead of modifying the template too much. You can check that solution out [here](/docs/.vitepress/theme/assets/FeaturesAndNews.vue).
 
-# Local build
+### Local build
 To build the site locally, clone this repo, `cd` into the `/docs` directory and run
 
 ```bash
