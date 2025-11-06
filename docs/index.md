@@ -3,7 +3,7 @@ layout: home
 
 hero:
   name: "Dr. Lorenzo Candioti"
-  text: "Simulation. Science. Software."
+  text: "Science. Software. Stories."
   tagline: "Modelling complex systems in geoscience and industry"
   image:
     src: /home/profile_stahlgiesserei_cropped.png
