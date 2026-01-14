@@ -58,7 +58,7 @@ const { Layout } = DefaultTheme
         </div>
         <!-- Copyright line -->
         <div class="footer-copy">
-          © {{ new Date().getFullYear() }} Lorenzo Candioti • I made this website with <a href = "https://vitepress.dev" style="text-decoration: underline;"> VitePress </a>
+          © {{ new Date().getFullYear() }} Lorenzo Candioti • Powered by <a href = "https://vitepress.dev" style="text-decoration: underline;"> VitePress </a>
         </div>
       </div>
     </template>
