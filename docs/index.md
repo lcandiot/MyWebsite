@@ -22,8 +22,6 @@ features:
     - title: Software Development
       details: Contributing to C-libraries and developing Julia packages for geodynamic modelling.
       link: /projects/software_development/
-    - title: Data Analysis & Machine Learning
-      details: Working with databases and integration of neural networks into traditional data analysis and fluid dynamics solvers.
 
 news:
   - date: 10.03.2026
