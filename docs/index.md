@@ -4,7 +4,7 @@ layout: home
 hero:
   name: "Dr. Lorenzo Candioti"
   text: "Science. Software. Stories."
-  tagline: "Modelling complex systems in geoscience and industry"
+  tagline: "Modelling complex systems for science and industry"
   image:
     src: /home/profile_stahlgiesserei_cropped.png
   actions:
@@ -22,14 +22,15 @@ features:
     - title: Software Development
       details: Contributing to C-libraries and developing Julia packages for geodynamic modelling.
       link: /projects/software_development/
+    - title: Data Analysis & Machine Learning
+      details: Working with databases and integration of neural networks into traditional data analysis and fluid dynamics solvers.
 
 news:
+  - date: 10.03.2026
+    text: 📦 <strong> New release </strong> - my Julia package <a href="https://github.com/lcandiot/GeoUtils.jl" target="_blank"><strong><i>GeoUtils.jl</i></strong></a> has a new release. It features new visualization functions including a CairoMakie extension to plot mineral phase abundances and a function to write a GIF from pngs. Feel free to check it out and leave me a star.
   - date: 04.11.2025
     text: 🚨📝 <strong> Preprint alert </strong> - our manuscript on validating thermodynamic models and designing neural networks for
       fast inference of material properties submitted to <strong><i> Geochemistry, Geophysics, Geosystems </i></strong> is now available on <a href="https://doi.org/10.22541/essoar.176169621.16239367/v1" target="_blank"><strong><i>ESS Open Archive</i></strong></a>!
-  - date: 28.10.2025
-    text: Speaking at the <strong><i> Swiss Geosciences Meeting 2025 </i></strong>! In my talk, I will shed light on validating thermodynamic models and neural networks.
-      See you in <strong> Bern on  Saturday, 6 December</strong>!
 ---
 
 <!-- About section -->
