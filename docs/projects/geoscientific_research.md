@@ -1,6 +1,6 @@
 # 🌍 Geoscientific Research
 
-Welcome to a brief selection of research projects I’ve led. This list isn’t exhaustive — it includes only articles where I’m the first author.
+Welcome to a brief selection of research projects I’ve led. This list isn’t exhaustive — it includes only articles where I’m the first author. Follow me on <a href="https://www.researchgate.net/profile/Lorenzo-Candioti">ResearchGate</a> for updates on my scientific work!
 
 ## Horizontal force required for subduction initiation (2022)
 
