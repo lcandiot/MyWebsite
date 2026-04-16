@@ -24,11 +24,11 @@ features:
       link: /projects/software_development/
 
 news:
+  - date: 16.04.2026
+    text: 🚨📝 <strong> Paper alert </strong> - our article on validating thermodynamic models and designing neural networks for
+      fast inference of material properties is now published in <a href="https://doi.org/10.1029/2025GC012766" target="_blank"><strong><i>Geochemistry, Geophysics, Geosystems</i></strong></a>!
   - date: 10.03.2026
     text: 📦 <strong> New release </strong> - my Julia package <a href="https://github.com/lcandiot/GeoUtils.jl" target="_blank"><strong><i>GeoUtils.jl</i></strong></a> has a new release. It features new visualization functions including a CairoMakie extension to plot mineral phase abundances and a function to write a GIF from pngs. Feel free to check it out and leave me a star.
-  - date: 04.11.2025
-    text: 🚨📝 <strong> Preprint alert </strong> - our manuscript on validating thermodynamic models and designing neural networks for
-      fast inference of material properties submitted to <strong><i> Geochemistry, Geophysics, Geosystems </i></strong> is now available on <a href="https://doi.org/10.22541/essoar.176169621.16239367/v1" target="_blank"><strong><i>ESS Open Archive</i></strong></a>!
 ---
 
 <!-- About section -->

@@ -1,6 +1,36 @@
-# 🌍 Geoscientific Research
+# 🌍 Geoscience projects
 
-Welcome to a brief selection of research projects I’ve led. This list isn’t exhaustive — it includes only articles where I’m the first author. Follow me on <a href="https://www.researchgate.net/profile/Lorenzo-Candioti">ResearchGate</a> for updates on my scientific work!
+Welcome to a brief selection of research projects I’ve led in the domain of Geosciences. This list isn’t exhaustive — it includes only articles where I’m the first author. Follow me on <a href="https://www.researchgate.net/profile/Lorenzo-Candioti">ResearchGate</a> for updates on my scientific work!
+
+## Validating Thermodynamic Models of Arc-Magma Differentiation and Training Neural Networks for Rapid Thermodynamic Property Inference (2026)
+
+In this article, I tackle one of the biggest computational hurdles in reactive transport modelling: the sheer slowness of traditional Gibbs Free Energy Minimization (GFEM). Because calculating mineral phases is often orders of magnitude slower than solving for physics like fluid flow, it creates a massive bottleneck for researchers.
+
+To solve this, I developed a Multi-Layer-Perceptron (MLP) surrogate model designed to replace traditional solvers. The real breakthrough wasn’t just the architecture, but how I handled the data. Geochemical data is notoriously sparse due to the limits of lab experiments, so I built an entirely new workflow to bridge the gap. I started by randomly sampling compositions to capture broad trends, then used a traditional GFEM solver to generate a robust synthetic dataset for training.
+
+The result is a neural network capable of lightning-fast thermodynamic property inference. It performs about **3000x faster** than traditional methods while maintaining high precision, delivering liquid compositions with an **error of less than 1 wt.%**. This approach offers a more efficient path for incorporating complex geochemistry into large-scale models without the typical computational overhead 
+
+::: tip **Why it matters**
+Accelerating geochemical computations brings us one step closer to more realistic reactive transport models that simulate geological processes like the formation of critical mineral resources.
+:::
+
+::: warning Details
+🔧 **Tech:** Julia language, Lux.jl, MLP surrogate models, GFEM
+
+🏢 **Context:** Postdoc @ ETH Zürich
+
+📄 **Article:** [Candioti et al., 2026, Geochemistry, Geophysics, Geosystems](https://doi.org/10.1029/2025GC012766 "Candioti et al., 2026, Gcubed")
+:::
+
+<figure>
+  <img
+    src="/projects/geoscientific_research/Candioti_et_al_2026_surrogateAccuracy.pdf"
+    alt="Surrogate model accuracy"
+  />
+  <figcaption>
+    <strong> Figure </strong> Surrogate model vs. traditional GFEM-solver predictions for thermodynamic quantities (taken from Candioti et al., 2026).
+  </figcaption>
+</figure>
 
 ## Horizontal force required for subduction initiation (2022)
 
@@ -24,7 +54,7 @@ Understanding the mechanical thresholds for subduction helps explain how converg
   <img
     src="/projects/geoscientific_research/Candioti_et_al_2022_forces.png"
     alt="Horizontal forces"
-  />
+   />
   <figcaption>
     <strong> Figure </strong> Evolution of horizontal and buoyancy forces during the formation of mountain belts (taken from Candioti et al., 2022).
   </figcaption>
@@ -93,10 +123,11 @@ Before modelling the full tectonic cycle, we made sure that our model accurately
 
 <div class="references">
 
-1. Candioti LG, Duretz T and Schmalholz SM (2022) Horizontal Force Required for Subduction Initiation at Passive Margins With Constraints From Slab Detachment. Front. Earth Sci. 10:785418. doi: 10.3389/feart.2022.785418
-2. Candioti, L. G., Duretz, T., Moulas, E., and Schmalholz, S. M.: Buoyancy versus shear forces in building orogenic wedges, Solid Earth, 12, 1749–1775, https://doi.org/10.5194/se-12-1749-2021, 2021.
-3. Candioti, L. G., Schmalholz, S. M., and Duretz, T.: Impact of upper mantle convection on lithosphere hyperextension and subsequent horizontally forced subduction initiation, Solid Earth, 11, 2327–2357, https://doi.org/10.5194/se-11-2327-2020, 2020.
-4. Tosi, N., et al. (2015), A community benchmark for viscoplastic thermal convection in a 2-D square box, Geochem. Geophys. Geosyst., 16, 21752196, doi:10.1002/2015GC005807.
+1. Candioti, L. G., Nathwani, C. L., & Chelle-Michou, C. (2026). Validating thermodynamic models of arc-magma differentiation and training neural networks for rapid thermodynamic property inference. Geochemistry, Geophysics, Geosystems, 27, e2025GC012766. https://doi.org/10.1029/2025GC012766
+2. Candioti, L. G., Duretz, T., & Schmalholz, S. M. (2022). Horizontal force required for subduction initiation at passive margins with constraints from slab detachment. Frontiers in Earth Science, 10, 785418. https://doi.org/10.3389/feart.2022.785418
+3. Candioti, L. G., Duretz, T., Moulas, E., and Schmalholz, S. M.: Buoyancy versus shear forces in building orogenic wedges, Solid Earth, 12, 1749–1775, https://doi.org/10.5194/se-12-1749-2021, 2021.
+4. Candioti, L. G., Schmalholz, S. M., and Duretz, T.: Impact of upper mantle convection on lithosphere hyperextension and subsequent horizontally forced subduction initiation, Solid Earth, 11, 2327–2357, https://doi.org/10.5194/se-11-2327-2020, 2020.
+5. Tosi, N., et al. (2015), A community benchmark for viscoplastic thermal convection in a 2-D square box, Geochem. Geophys. Geosyst., 16, 21752196, doi:10.1002/2015GC005807.
 
 </div>
 
